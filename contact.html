@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Me contacter</title>
+</head>
+
+<body>
+  <h1>Me Contacter</h1>
+  <ul>
+
+    <li>Tel: 064717066 </li><br>
+    <li>Courriel: hugo.toullieux@ieseg.fr</li>
+
+  </ul>
+<!-- enctype pour spécifier qu'on met du texte dans le form  !-->
+  <form  action="mailto:hugo.toullieux@ieseg.fr" method="post" enctype="text/plain">
+<table cellspacing="10">
+  <tr>
+    <td><label>Your name:</label>
+    </td>
+    <td><input type="text" name="YourName" value=""></td>
+  </tr>
+  <tr>
+    <td>  <label>Password:</label></td>
+    <td><input type="password" name="YourPassword" value=""></td>
+  </tr>
+</table>
+
+
+
+    <label>Do you want to subscribe ?</label>
+    <input type="checkbox" name="" value=""><br>
+    <label>Your Email:</label>
+    <input type="email" name="YourEmail" value=""><br><br>
+    <label><u>Your Message:</u></label><br><br>
+    <textarea name="name" rows="10" cols="30"></textarea><br>
+    <input type="submit" name="" value="Enregistrer">
+  </form>
+
+</body>
+
+</html>
